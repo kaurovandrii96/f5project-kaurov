@@ -1,3 +1,37 @@
 .page-header {
   position: relative;
 }
+
+.banner {
+  display: flex;
+  justify-content: center;
+  background-image: url('../../images/layerMain.png');
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 170px 0 250px 0;
+  &__link {
+    border: 10px solid #ffffff;
+  }
+  &__logo {
+    padding: 35px 65px;
+    background: #ffffff;
+    border: 2px solid #781241;
+  }
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  &__item {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Oswald' sans-serif;
+    text-transform: uppercase;
+    &:hover {
+      color: #ffffff;
+      border-bottom: 2px solid #ffffff;
+    }
+  }
+}
