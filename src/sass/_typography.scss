@@ -1,32 +1,5 @@
 //  Include fonts
 
-// font-family: 'Roboto';
-@font-face {
-  font-family: 'Roboto';
-  font-weight: normal;
-  src: local('Roboto'), local('Roboto-Regular');
-  src: url('../fonts/Roboto-Regular.eot');
-  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/Roboto-Regular.woff2') format('woff2'),
-  url('../fonts/Roboto-Regular.woff') format('woff'),
-  url('../fonts/Roboto-Regular.ttf') format('truetype'),
-  url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
-}
-
-// font-family: 'Roboto';
-// font-weight: 700;
-@font-face {
-  font-family: 'Roboto';
-  font-weight: 700;
-  src: local('Roboto'), local('Roboto-Bold');
-  src: url('../fonts/Roboto-Bold.eot');
-  src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/Roboto-Bold.woff2') format('woff2'),
-  url('../fonts/Roboto-Bold.woff') format('woff'),
-  url('../fonts/Roboto-Bold.ttf') format('truetype'),
-  url('../fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
-}
-
 // font-family: 'Osvald';
 @font-face {
   font-family: 'Oswald';
@@ -55,9 +28,56 @@
        url('../fonts/oswald-v16-latin-700.svg#Oswald') format('svg'); /* Legacy iOS */
 }
 
+// font-family: 'GaramondPremrProSmbd';
+@font-face {
+  font-family: 'GaramondPremrProSmbd';
+  font-style: bold;
+  src: url('../fonts/GaramondPremrProSmbd.eot');
+  src: url('../fonts/GaramondPremrProSmbd.eot') format('embedded-opentype'),
+       url('../fonts/GaramondPremrProSmbd.woff2') format('woff2'),
+       url('../fonts/GaramondPremrProSmbd.woff') format('woff'),
+       url('../fonts/GaramondPremrProSmbd.ttf') format('truetype'),
+       url('../fonts/GaramondPremrProSmbd.svg#GaramondPremrProSmbd') format('svg');
+}
+
+// font-family: 'GaramondPremrProSmbdIt';
+@font-face {
+  font-family: 'GaramondPremrProSmbdIt';
+  font-style: italic, bold;
+  src: url('../fonts/GaramondPremrProSmbdIt.eot');
+  src: url('../fonts/GaramondPremrProSmbdIt.eot') format('embedded-opentype'),
+       url('../fonts/GaramondPremrProSmbdIt.woff2') format('woff2'),
+       url('../fonts/GaramondPremrProSmbdIt.woff') format('woff'),
+       url('../fonts/GaramondPremrProSmbdIt.ttf') format('truetype'),
+       url('../fonts/GaramondPremrProSmbdIt.svg#GaramondPremrProSmbdIt') format('svg');
+}
+
+// font-family: 'GaramondPremrPro';
+@font-face {
+  font-family: 'GaramondPremrPro';
+  src: url('../fonts/GaramondPremrPro.eot');
+  src: url('../fonts/GaramondPremrPro.eot') format('embedded-opentype'),
+       url('../fonts/GaramondPremrPro.woff2') format('woff2'),
+       url('../fonts/GaramondPremrPro.woff') format('woff'),
+       url('../fonts/GaramondPremrPro.ttf') format('truetype'),
+       url('../fonts/GaramondPremrPro.svg#GaramondPremrPro') format('svg');
+}
+
+// font-family: 'GaramondPremrProIt';
+@font-face {
+  font-family: 'GaramondPremrProIt';
+  font-style: italic;
+  src: url('../fonts/GaramondPremrProIt.eot');
+  src: url('../fonts/GaramondPremrProIt.eot') format('embedded-opentype'),
+       url('../fonts/GaramondPremrProIt.woff2') format('woff2'),
+       url('../fonts/GaramondPremrProIt.woff') format('woff'),
+       url('../fonts/GaramondPremrProIt.ttf') format('truetype'),
+       url('../fonts/GaramondPremrProIt.svg#GaramondPremrProIt') format('svg');
+}
+
 // Main title style
 h1, h2, h3, h4, h5 {
-  font-family: $font-family;
+  font-family: $font-family-osvald;
 }
 
 h1 {

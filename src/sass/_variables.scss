@@ -1,18 +1,25 @@
 //  Main Color
 $body-bg: #fff;
-$text-color: #333;
+$text-color: #666666;
+$border-color: #666666;
+$title-color: #333333;
+$subscribe-color: #781241;
 
 // Color link
-$link-color: #55b3f3;
-$link-color--hover: darken($link-color, 20%);
+$link-color: #333333;
+$link-color--hover: #454545;
 
-//  Typography
-$font-family: 'Roboto', Helvetica, Arial, sans-serif;
-// $font-family--helvetica: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+// Typography
+$font-family-osvald: 'Oswald', Helvetica, Arial, sans-serif;
+$font-family-garamondbd: 'GaramondPremrProSmbd', Helvetica, Arial, sans-serif;
+$font-family-garamondbdit: 'GaramondPremrProSmbdIt', Helvetica, Arial, sans-serif;
+$font-family-garamond: 'GaramondPremrPro', Helvetica, Arial, sans-serif;
+$font-family-garamondit: 'GaramondPremrProIt',Helvetica, Arial, sans-serif;
 
 // Main Typography variables
-$font-size: 14px;
-$font-weight: 400; // Regular
+$font-size: 8px;
+$font-weight-reg: 400;
+$font-weight-bold: 700;
 $line-height: 1.2;
 
 // Custom Container setting
