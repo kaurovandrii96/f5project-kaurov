@@ -1,1 +1,16 @@
 // Buttons
+.btn {
+	display: flex;
+	padding: 15px 45px;
+	color: $subscribe-color;
+	background: $border-logo-color;
+	outline: none;
+	border-left: 1px solid $border-color;
+	border-right: none;
+	text-transform: uppercase;
+	font-family: $font-family-osvald;
+
+	&__text {
+		margin-right: 20px;
+	}
+}

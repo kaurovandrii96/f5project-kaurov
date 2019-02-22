@@ -18,3 +18,8 @@ select {
   margin-top: 8px;
   margin-bottom: 12px;
 }
+
+input[type="email"]::-webkit-input-placeholder { color: $title-color; font-size: $font-size + 8; }
+input[type="email"]:-ms-input-placeholder { color: $title-color; font-size: $font-size + 8; }
+input[type="email"]::-ms-input-placeholder { color: $title-color; font-size: $font-size + 8; }
+input[type="email"]::placeholder { color: $title-color; font-size: $font-size + 8; }
