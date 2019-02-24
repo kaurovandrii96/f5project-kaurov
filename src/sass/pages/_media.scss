@@ -1,0 +1,28 @@
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.new {
+    width: 47%;
+    margin: 20px 0;
+    border-top: 2px solid $border-color;
+    padding: 3px;
+
+    &__wrap {
+        position: relative;
+        border-top: 1px solid $border-color;
+    }
+
+    &__img {
+        position: relative;
+        overflow: hidden;
+        height: 225px;
+
+        &--hidden {
+            position: absolute;
+            top: 0;
+        }
+    }
+}

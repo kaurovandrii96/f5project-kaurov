@@ -22,6 +22,13 @@
     background-repeat: no-repeat;
   }
 
+  &--media {
+    background-image: url('../../images/layerMedia.png');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   &__logo {
     display: block;
     padding: 35px 65px;
@@ -51,7 +58,7 @@
   &__item {
     margin: 0 20px;
     color: $border-logo-color;
-    font-size: $font-size + 8;
+    font-size: $font-size + 4;
     font-family: $font-family-osvald;
     text-transform: uppercase;
 

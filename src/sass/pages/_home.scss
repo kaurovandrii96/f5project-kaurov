@@ -3,13 +3,17 @@
 		padding: 100px 0 50px 0;
 		width: 70%;
     text-align: center;
-    font-size: $font-size + 8;
+    font-size: $font-size + 4;
 	}
 	
 .title {
 		text-align: center;
 		text-transform: uppercase;
 		font-family: $font-family-osvald;
+
+		&__wine {
+			padding: 100px 0 50px 0;
+		}
 	}
 
 .text {
@@ -18,13 +22,20 @@
 		&--paramondit {
 			text-align: center;
 			font-family: $font-family-garamondit;
-			font-size: $font-size + 4;
 			color: $title-color;
 		}
 	}
 
-.wrap {
+.wrap-row {
 		display: flex;
+		padding: 3px 10px;
+		border-top: 2px solid $border-color;
+		border-bottom: 2px solid $border-color;
+	}
+
+.wrap-column {
+		display: flex;
+		flex-direction: column;
 		padding: 3px 10px;
 		border-top: 2px solid $border-color;
 		border-bottom: 2px solid $border-color;
@@ -83,7 +94,7 @@
 	}
 	&__text {
 		font-family: $font-family-garamondit;
-		font-size: $font-size + 8;
+		font-size: $font-size + 4;
 	}
 }
 
@@ -93,12 +104,18 @@
 
 .email {
 	width: 40%;
+}
+
+.border-top-bottom {
 	border-top: 1px solid $border-color;
 	border-bottom: 1px solid $border-color;
 }
 
 .address {
 	width: 30%;
+}
+
+.border-top-right-bottom {
 	border-top: 1px solid $border-color;
 	border-bottom: 1px solid $border-color;
 	border-right: 1px solid $border-color;
@@ -109,6 +126,9 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.border-top-bottom-left {
 	border-top: 1px solid $border-color;
 	border-bottom: 1px solid $border-color;
 	border-left: 1px solid $border-color;
@@ -120,7 +140,7 @@
 	justify-content: space-between;
 
 	&__link {
-		font-size: $font-size * 2;
+		font-size: $font-size + 4;
 
 		&:hover {
 			color: $link-color--hover;

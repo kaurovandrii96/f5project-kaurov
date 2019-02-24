@@ -1,0 +1,47 @@
+.wine {
+    display: flex;
+
+    &__images {
+        width: 50%;
+        position: relative;
+
+        &--bottle {
+            position: absolute;
+            top: 30px;
+            left: 50%;
+        }
+
+        &--volume {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+        }
+
+        &--textInBottle {
+            position: absolute;
+            top: 50px;
+            right: 25px;
+        }
+    }
+
+    &__content {
+        position: relative;
+        width: 50%;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        padding-left: 30px;
+        font-size: $font-size + 4;
+    }
+
+    &__subtitle {
+        text-transform: uppercase;
+    }
+
+    &__text {
+
+        &--strong {
+            color: #333333;
+            font-weight: 700;
+        }
+    }
+}

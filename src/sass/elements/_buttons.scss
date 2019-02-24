@@ -7,10 +7,19 @@
 	outline: none;
 	border-left: 1px solid $border-color;
 	border-right: none;
+	border-top: none;
+	border-bottom: none;
 	text-transform: uppercase;
 	font-family: $font-family-osvald;
+	cursor: pointer;
 
 	&__text {
 		margin-right: 20px;
+	}
+
+	&__new {
+		position: absolute;
+		right: 0;
+		bottom: -50px;
 	}
 }
