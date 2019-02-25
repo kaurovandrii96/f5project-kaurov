@@ -21,6 +21,7 @@
             position: absolute;
             top: 50px;
             right: 25px;
+            font-size: 12px;
         }
     }
 
@@ -30,7 +31,6 @@
         padding-top: 30px;
         padding-bottom: 50px;
         padding-left: 30px;
-        font-size: $font-size + 4;
     }
 
     &__subtitle {

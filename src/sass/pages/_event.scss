@@ -1,0 +1,74 @@
+.event {
+    padding: 25px 0;
+    border-top: 1px solid $border-color;
+    position: relative;
+    margin-bottom: 120px;
+    text-align: left;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__wrap {
+        width: 66%;
+        border-top: 2px solid $subscribe-color;
+        padding: 3px;
+    }
+
+    &__title {
+        position: absolute;
+        top: 0;
+        left: 110px;
+    }
+
+    &__text {
+        position: absolute;
+        top: 30px;
+        left: 110px;
+        font-size: $font-size + 4;
+        height: 50px;
+        overflow: hidden;
+    }
+
+    &__btn {
+        position: absolute;
+        bottom: -100px;
+        right: 0;
+    }
+}
+
+.date {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $subscribe-color;
+    color: $border-logo-color;
+    font-size: $font-size + 4;
+    text-align: center;
+
+    &__event {
+        position: absolute;
+        top: 17px;
+        left: 12px;
+    }
+
+    &__details {
+        float: left;
+        margin: 0 10px 10px 0;
+    }
+}
+
+.calendar {
+    width: 25%;
+    padding: 3px;
+    border-top: 2px solid $subscribe-color;
+
+    &__wrap {
+        border-top: 1px solid $border-color;
+        display: flex;
+        justify-content: center;
+    }
+}

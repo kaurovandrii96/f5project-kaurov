@@ -1,4 +1,4 @@
-.story {
+.caption {
 		margin: auto;
 		padding: 100px 0 50px 0;
 		width: 70%;
@@ -61,10 +61,6 @@
 		border-bottom: 2px solid $border-color;
 	}
 
-	&__input {
-		border: none;
-	}
-
 	&__content {
 		display: flex;
 		border-top: 1px solid $border-color;
@@ -77,6 +73,9 @@
   background-position: top center;
   background-size: cover;
 	background-repeat: no-repeat;
+}
+
+.info {
 	padding: 95px 0 100px 0;
 	text-align: center;
 
@@ -85,6 +84,7 @@
 		margin: auto;
 		padding: 10px;
 		background: $border-logo-color;
+		position: relative;
 
 		&--border {
 			padding: 30px 30px 50px 30px;

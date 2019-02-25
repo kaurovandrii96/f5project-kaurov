@@ -5,13 +5,17 @@
 	color: $subscribe-color;
 	background: $border-logo-color;
 	outline: none;
-	border-left: 1px solid $border-color;
+	border-left: none;
 	border-right: none;
 	border-top: none;
 	border-bottom: none;
 	text-transform: uppercase;
 	font-family: $font-family-osvald;
 	cursor: pointer;
+
+	&__index {
+		border-left: 1px solid $border-color;
+	}
 
 	&__text {
 		margin-right: 20px;
@@ -22,4 +26,10 @@
 		right: 0;
 		bottom: -50px;
 	}
+
+	&__form {
+        position: absolute;
+        right: 12px;
+        bottom: 12px;
+    }
 }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Nevada</title>
+	<meta name="description" content="">
+	@@include('_include/head.html')
+</head>
+
+<body>
+
+	<section class="banner banner--contacts" id="banner">
+		@@include('_include/header.html')
+				
+		<div class="banner__link--wrap-wines">
+			<a href="#" class="banner__link"><img src="images/mainLogo.png" class="banner__logo" alt="logo"></a>
+		</div>
+	</section>
+
+	<div class="page-container">
+       <div class="caption">
+		    <h2 class="title">contact us</h2>
+        	<p class="text">Lorem ipsum dolor sit amet, consectetuer adipisc ing elit, sed diam nonummy nibh euismod tincidunt ut laoreet. 
+        	Dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipisc ing elit, sed diam 
+        	nonummy nibh euismod tincidunt ut laoreet. Dolore magna aliquam erat volutpat. Lorem ipsum dolor</p>
+	   </div>
+
+        @@include('_include/address.html')
+        
+        <section class="map" id="map">
+			<img src="images/map.png" alt="map">
+			<div class="working">
+				<h3 class="working__title">working hours</h3>
+				<p class="working__text"><span>Thursday:</span> <span>4 PM - 9 PM</span></p>
+				<p class="working__text"><span>Friday: </span><span> 4 PM - 9 PM</span></p>
+				<p class="working__text"><span>Saturday: </span><span> 4 PM - 9 PM</span></p>
+			</div>
+		</section>
+
+        <form action="#" class="form info">
+            <div class="info__wrap">
+				<div class="info__wrap--border">
+					<input type="text" name="name" placeholder="Enter your Name">
+					<input type="email" name="email" placeholder="Enter your E-mail ">
+					<input type="text" name="subject" placeholder="Enter your Subject">
+					<textarea name="message" id="message" placeholder="Message" class="border-message"></textarea>
+					<button class="btn btn__form"> <span class="btn__text">send</span> <i class="fas fa-angle-right"></i></button>
+				</div>
+			</div>
+        </form>
+
+	</div>
+
+	@@include('_include/footer.html')
+
+	@@include('_include/inc_script.html')
+
+</body>
+</html>

@@ -11,6 +11,10 @@ select {
   width: 100%;
   max-width: 100%;
   background: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
   outline: 0 none;
   padding: 15px;
   color: $text-color;
@@ -19,7 +23,12 @@ select {
   margin-bottom: 12px;
 }
 
-input[type="email"]::-webkit-input-placeholder { color: $title-color; font-size: $font-size + 8; }
-input[type="email"]:-ms-input-placeholder { color: $title-color; font-size: $font-size + 8; }
-input[type="email"]::-ms-input-placeholder { color: $title-color; font-size: $font-size + 8; }
-input[type="email"]::placeholder { color: $title-color; font-size: $font-size + 8; }
+.border-message {
+  border-bottom: 1px solid $border-color;
+  height: 130px;
+}
+
+input[id="email"]::-webkit-input-placeholder { color: $title-color; font-size: $font-size + 4; }
+input[id="email"]:-ms-input-placeholder { color: $title-color; font-size: $font-size + 4; }
+input[id="email"]::-ms-input-placeholder { color: $title-color; font-size: $font-size + 4; }
+input[id="email"]::placeholder { color: $title-color; font-size: $font-size + 4; }

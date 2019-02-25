@@ -1,13 +1,7 @@
-.news {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 .new {
     width: 47%;
-    margin: 20px 0;
     border-top: 2px solid $border-color;
+    margin: 15px;
     padding: 3px;
 
     &__wrap {
