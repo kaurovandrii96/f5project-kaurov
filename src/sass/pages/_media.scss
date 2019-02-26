@@ -1,12 +1,13 @@
 .new {
     width: 47%;
     border-top: 2px solid $border-color;
-    margin: 15px;
+    margin: 30px 15px;
     padding: 3px;
 
     &__wrap {
         position: relative;
         border-top: 1px solid $border-color;
+        padding: 30px 0;
     }
 
     &__img {

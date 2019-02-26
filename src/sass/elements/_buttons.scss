@@ -1,6 +1,6 @@
 // Buttons
 .btn {
-	display: flex;
+	position: relative;
 	padding: 15px 45px;
 	color: $subscribe-color;
 	background: $border-logo-color;
@@ -13,23 +13,40 @@
 	font-family: $font-family-osvald;
 	cursor: pointer;
 
+	&__arrow {
+		position: absolute;
+		right: 0;
+		bottom: 27px;
+	}
+
+	&__arrow-other {
+		position: absolute;
+		right: 0;
+		bottom: 15px;
+	}
+
 	&__index {
 		border-left: 1px solid $border-color;
 	}
 
-	&__text {
-		margin-right: 20px;
-	}
-
-	&__new {
-		position: absolute;
-		right: 0;
-		bottom: -50px;
-	}
-
 	&__form {
         position: absolute;
-        right: 12px;
-        bottom: 12px;
-    }
+        right: 30px;
+        bottom: 25px;
+	}
+	
+	&__form {
+		padding: 0 45px;
+		border: none;
+		text-transform: uppercase;
+		background: transparent;
+		color: $subscribe-color;
+		outline: none;
+		font-family: $font-family-osvald;
+		cursor: pointer;
+	}
+
+	&__arrow-form {
+		margin-left: 45px;
+	}
 }

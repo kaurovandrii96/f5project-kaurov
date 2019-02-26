@@ -12,7 +12,6 @@ select {
   max-width: 100%;
   background: none;
   border-top: none;
-  border-bottom: none;
   border-left: none;
   border-right: none;
   outline: 0 none;
@@ -26,9 +25,19 @@ select {
 .border-message {
   border-bottom: 1px solid $border-color;
   height: 130px;
+  margin-bottom: 50px;
+}
+
+.border-input {
+  border-bottom: 1px solid $border-color;
 }
 
 input[id="email"]::-webkit-input-placeholder { color: $title-color; font-size: $font-size + 4; }
 input[id="email"]:-ms-input-placeholder { color: $title-color; font-size: $font-size + 4; }
 input[id="email"]::-ms-input-placeholder { color: $title-color; font-size: $font-size + 4; }
 input[id="email"]::placeholder { color: $title-color; font-size: $font-size + 4; }
+
+#email:focus .sendMail__wrap {
+  border-top: 2px solid $subscribe-color;
+  border-bottom: 2px solid $subscribe-color;
+}

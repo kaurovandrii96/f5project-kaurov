@@ -15,4 +15,8 @@
         width: 100%;
         height: auto;
     }
+
+    &--color {
+        color: $text-color;
+    }
 }

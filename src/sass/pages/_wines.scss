@@ -34,13 +34,14 @@
     }
 
     &__subtitle {
+        color: $title-color;
         text-transform: uppercase;
     }
 
     &__text {
 
         &--strong {
-            color: #333333;
+            color: $title-color;
             font-weight: 700;
         }
     }
