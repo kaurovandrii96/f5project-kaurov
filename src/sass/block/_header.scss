@@ -82,3 +82,36 @@
     }
   }
 }
+
+.burger {
+  display: none;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  //background: rgba(8, 8, 8, 0.75);
+  height: 96%;
+  width: 33%;
+  margin-right: 1000px;
+  opacity: 0;
+
+  &__open {
+    opacity: 1;
+    margin-right: 0;
+    transition: 1s;
+  }
+
+  &__btn {
+    width: 50px;
+    height: 5px;
+    background: #ffffff;
+    cursor: pointer;
+  }
+
+  &__item {
+    padding: 20px;
+    color: $border-logo-color;
+    font-size: $font-size + 4;
+    font-family: $font-family-osvald;
+    text-transform: uppercase;
+  }
+}
