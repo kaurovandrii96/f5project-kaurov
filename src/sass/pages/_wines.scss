@@ -1,9 +1,17 @@
 .wine {
     display: flex;
 
+    @include max-w (568px) {
+		flex-direction: column;
+	}
+
     &__images {
         width: 50%;
         position: relative;
+
+        @include max-w (568px) {
+            width: 100%;
+        }
 
         &--bottle {
             position: absolute;
@@ -31,6 +39,11 @@
         padding-top: 30px;
         padding-bottom: 50px;
         padding-left: 30px;
+
+        @include max-w (568px) {
+            width: 100%;
+            top: 350px;
+        }
     }
 
     &__subtitle {

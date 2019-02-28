@@ -9,6 +9,10 @@
     &__images {
         width: 74%;
         margin: auto;
+
+        @include max-w (992px) {
+            width: 100%;
+        }
     }
 
     &__img {

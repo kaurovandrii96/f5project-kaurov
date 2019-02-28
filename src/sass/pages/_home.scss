@@ -3,7 +3,11 @@
 		padding: 100px 0 50px 0;
 		width: 64%;
     text-align: center;
-    font-size: $font-size + 4;
+		font-size: $font-size + 4;
+		
+		@include max-w (568px) {
+			width: 100%;
+		}
 	}
 	
 .title {
@@ -32,6 +36,10 @@
 		padding: 3px 10px;
 		border-top: 2px solid $border-color;
 		border-bottom: 2px solid $border-color;
+
+		@include max-w (568px) {
+			flex-direction: column;
+		}
 	}
 
 .wrap-column {
@@ -46,7 +54,7 @@
     display: flex;
 		justify-content: space-between;
 		
-		@include max-w (1216px) {
+		@include max-w (992px) {
 		flex-direction: column;
 	}
 		
@@ -55,9 +63,14 @@
 				display: block;
 				max-width: 100%;
 
-				@include max-w (1216px) {
+				@include max-w (992px) {
+					margin: 10px auto;
+					width: 60%;
+				}
+
+				@include max-w (568px) {
 					margin: 20px auto;
-					width: 50%;
+					width: 100%;
 				}
 		}
 }
@@ -66,6 +79,10 @@
 	width: 60%;
 	margin: auto;
 	padding: 100px 0;
+
+	@include max-w (992px) {
+		width: 100%;
+	}
 
 	&__wrap {
 		padding: 3px 10px;
@@ -91,6 +108,14 @@
 	padding: 95px 0 100px 0;
 	text-align: center;
 
+	@include max-w (992px) {
+		padding: 50px 0;
+	}
+
+	@include max-w (568px) {
+		padding: 30px 0;
+	}
+
 	&__wrap {
 		width: 33%;
 		margin: auto;
@@ -98,10 +123,22 @@
 		background: $border-logo-color;
 		position: relative;
 
+		@include max-w (992px) {
+			width: 50%;
+		}
+	
+		@include max-w (568px) {
+			width: 100%;
+		}
+
 		&--border {
 			padding: 30px;
 			background: $border-logo-color;
 			border: 2px solid $subscribe-color;
+
+			@include max-w (568px) {
+				padding: 15px;
+			}
 		}
 	}
 	&__text {
@@ -122,6 +159,10 @@
 	justify-content: center;
 	align-items: center;
 
+	@include max-w (568px) {
+		width: 100%;
+	}
+
 	&__link {
 		font-family: $font-family-garamondit;
 	}
@@ -139,12 +180,20 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
+	@include max-w (568px) {
+		width: 100%;
+	}
 }
 
 .border-top-right-bottom {
 	border-top: 1px solid $border-color;
 	border-bottom: 1px solid $border-color;
 	border-right: 1px solid $border-color;
+
+	@include max-w (568px) {
+		border-right: none;
+	}
 }
 
 .social {
@@ -154,12 +203,20 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
+	@include max-w (568px) {
+		width: 100%;
+	}
 }
 
 .border-top-bottom-left {
 	border-top: 1px solid $border-color;
 	border-bottom: 1px solid $border-color;
 	border-left: 1px solid $border-color;
+
+	@include max-w (568px) {
+		border-left: none;
+	}
 }
 
 .social-icons {
