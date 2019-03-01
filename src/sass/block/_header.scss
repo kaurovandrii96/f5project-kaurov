@@ -3,7 +3,7 @@
   margin: auto;
 
   @include max-w (992px) {
-    margin: 20px;
+    margin: 10px;
   }
 }
 
@@ -55,6 +55,11 @@
 
     @include max-w (992px) {
       padding: 15px 45px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 9;
     }
 
     @include max-w (568px) {
@@ -69,11 +74,19 @@
     &--wrap-index {
       margin: auto;
       padding: 170px 0 250px 0;
+
+      @include max-w (992px) {
+        padding: 20px;
+      }
     }
 
     &--wrap-wines {
       margin: auto;
       padding: 10px 0 40px 0;
+
+      @include max-w (992px) {
+        padding: 20px;
+      }
     }
   }
 }
@@ -81,11 +94,16 @@
 .header-nav {
   padding: 30px 0;
   position: relative;
-  right: 200px;
 
   @include max-w (992px) {
     display: flex;
     flex-direction: column;
+    right: 1000px;
+    padding: 10px;
+    background: rgba(8, 8, 8, 0.75);
+    width: 50%;
+    height: 100%;
+    z-index: 10;
   }
 
   &__item {
@@ -96,7 +114,7 @@
     text-transform: uppercase;
 
     @include max-w (992px) {
-      margin: 20px 0;
+      margin: 20px 30px;
     }
 
     &:hover {
@@ -113,7 +131,7 @@
   @include max-w (992px) {
     display: block;
     position: relative;
-    margin: 30px;
+    margin-top: 20px;
     width: 50px;
     height: 50px;
   }
